@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+	color:#2a2a2a;
+	background: #fe5d26;
+	font-family: helvetica, arial, sans-sarif;
+	font-size: 20px;
+	line-height: 150%;
+
+}
+h1{
+	align-content: center;
+	background: #c1dbb3;
+	color:white;
+	font-weight: bold;
+
+	font-size:350%;
+	font-style: oblique;
+	line-height: 150%;
+	letter-spacing: 4px;
+	text-align: center;
+
+	height:300px;
+	width: 80%;
+	border:solid 8px #7ebc89;
+	padding: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 15px;
+	background: linear-gradient(135deg, #FAEDCA, #F2C078);
+	border-radius: 10px;
+	box-shadow: #FE5D26 10px 10px;
+}
+a {
+	text-decoration: none;
+	color:black
+}
+x {
+	font-family: helvetica, arial, sans-sarif;
+	display:inline-block;
+	width:15%;
+	height:10%;
+	background-color:antiquewhite;
+	text-align: center;
+	border:3px solid #A08A69;
+}
+x:hover{
+	background:white;
+}
+.wrapper {
+	background: #ffffff;
+	width: 972px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 40px;
+}
+/* gallery grid CSS */
+        
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-row-gap: 20px ;
+		justify-items: center;
+		align-items: start;
+		justify-content: space-around;
+	}
+
+	.gallery-item {
+		width: 300px; /*should match the width of your images + width of border (if any) */
+		text-align: center;
+	} 
+
+/* css for styling the p/caption under the image */       
+	.gallery-item p {
+		margin: .25em 0;
+		line-height: 135%;
+		font-size: 90%;
+	}
+
+.gallery-item img {
+	width: 90%;
+}
