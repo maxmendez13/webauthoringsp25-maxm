@@ -7,6 +7,7 @@ body{
 	padding:0;
 	color:#2a2a2a;
 	background: #fe5d26;
+	background-image: url("images/glitter.gif");
 	font-family: helvetica, arial, sans-sarif;
 	font-size: 20px;
 	line-height: 150%;
@@ -18,16 +19,16 @@ h1{
 	color:white;
 	font-weight: bold;
 
-	font-size:350%;
+	font-size:200%;
 	font-style: oblique;
 	line-height: 150%;
 	letter-spacing: 4px;
 	text-align: center;
 
-	height:300px;
+	height:30%;
 	width: 80%;
 	border:solid 8px #7ebc89;
-	padding: 60px;
+	padding: 30px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -43,10 +44,19 @@ a {
 	text-decoration: none;
 	color:black
 }
+c {
+	color:#7ebc89;
+	font-weight: bold;
+	text-decoration-color: #7ebc89
+}
+d {
+	font-style: italic;
+	color: black
+}
 x {
 	font-family: helvetica, arial, sans-sarif;
 	display:inline-block;
-	width:15%;
+	width:13%;
 	height:10%;
 	background-color:antiquewhite;
 	text-align: center;
@@ -55,12 +65,41 @@ x {
 x:hover{
 	background:white;
 }
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: dimgray;
+}
+tr {
+	background-color: white;
+	display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+	margin: auto
+}
+.table {
+	background-color: dimgray;
+	border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+	padding: 2px;
+	font-size: 16px
+}
 .wrapper {
 	background: #ffffff;
 	width: 972px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px 40px;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center
 }
 /* gallery grid CSS */
         
@@ -87,4 +126,10 @@ x:hover{
 
 .gallery-item img {
 	width: 90%;
+}
+
+/* site header */
+
+.site-logo-image {
+	height: 50px;
 }
