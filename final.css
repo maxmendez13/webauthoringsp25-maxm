@@ -1,0 +1,164 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  background-color: black;
+  color:white;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Navigation */
+header {
+  background-color:#CB393C;
+  padding: 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 30px;
+  padding: 0px;
+  gap: 20px;
+}
+
+header nav li {
+  margin: 0 10px;
+  padding-right: 30px;
+}
+
+header nav a {
+  color: #cbe1ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+header nav a:hover {
+  color: white;
+}
+header nav img {
+  height: 100px;
+  padding-left: 60px;
+}
+
+/* Lead Section */
+.lead {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.lead h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin: 20px 0 10px;
+  ;
+}
+
+.lead h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #57578c;
+}
+
+/* Showcase Section */
+.showcase {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.showcase-item {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 30%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(79, 46, 99, 0.548);
+  transition: transform 0.2s ease;
+}
+
+.showcase-item:hover {
+  transform: translateY(-5px);
+}
+
+.showcase-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.showcase-item h3 {
+  color: #20214b;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.showcase-item p {
+  font-size: 1rem;
+  color: #25243a;
+  margin-bottom: 10px;
+}
+
+/* Optional Buttons */
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: gray;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #6e4439;
+}
+
+/* Footer */
+footer {
+  background-color: #CB393C;
+  color: #cbe1ff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+/* Article Section */
+article {
+  margin: 50px 0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10prgba(204, 204, 204, 0.342);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
