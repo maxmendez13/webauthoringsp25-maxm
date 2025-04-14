@@ -1,3 +1,4 @@
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -96,6 +97,11 @@ header nav img {
 }
 
 /* Showcase Section */
+a {
+	color:#CB393C;
+	font-weight: bold;
+	text-decoration-color: #CB393C
+}
 .showcase {
   display: flex;
   gap: 20px;
