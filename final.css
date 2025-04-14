@@ -175,3 +175,30 @@ article {
   border-radius: 10prgba(204, 204, 204, 0.342);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* gallery grid CSS */
+        
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-row-gap: 20px ;
+		justify-items: center;
+		align-items: start;
+		justify-content: space-around;
+	}
+
+	.gallery-item {
+		width: 300px; /*should match the width of your images + width of border (if any) */
+		text-align: center;
+	} 
+
+/* css for styling the p/caption under the image */       
+	.gallery-item p {
+		margin: .25em 0;
+		line-height: 135%;
+		font-size: 90%;
+	}
+
+.gallery-item img {
+	width: 90%;
+}
