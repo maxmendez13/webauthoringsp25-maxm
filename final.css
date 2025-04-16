@@ -19,7 +19,7 @@ h1 {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -28,6 +28,7 @@ h1 {
 header {
   background-color:#CB393C;
   padding: 10px 0;
+  width: 100%;
 }
 
 header nav {
@@ -91,6 +92,11 @@ header nav img {
   color: black;
   margin-bottom: 20px;
   font-style: italic;
+}
+
+img {
+	max-width: 100%;
+  	height: auto;
 }
 
 .intro-text {
