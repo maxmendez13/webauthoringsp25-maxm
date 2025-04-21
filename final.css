@@ -210,3 +210,30 @@ article {
 .gallery-item img {
 	width: 90%;
 }
+
+/* gallery grid CSS */
+        
+	.map-grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-row-gap: 30px ;
+		justify-items: center;
+		align-items: start;
+		justify-content: space-around;
+	}
+
+	.map-item {
+		width: 300px; /*should match the width of your images + width of border (if any) */
+		text-align: center;
+	} 
+
+/* css for styling the p/caption under the image */       
+	.map-item p {
+		margin: .25em 0;
+		line-height: 135%;
+		font-size: 90%;
+	}
+
+.map-item img {
+	width: 90%;
+}
