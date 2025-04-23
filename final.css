@@ -219,12 +219,13 @@ article {
 	grid-row-gap: 60px ;
 	justify-items: center;
 	align-items: start;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .map-item {
-	width: 300px; /*should match the width of your images + width of border (if any) */
+	width: 400px; /*should match the width of your images + width of border (if any) */
 	text-align: center;
+	align-content: center;
 } 
 
 /* css for styling the p/caption under the image */       
@@ -232,10 +233,12 @@ article {
 	margin: .25em 0;
 	line-height: 135%;
 	font-size: 90%;
+	align-content: center;
 }
 
 .map-item img {
 	width: 90%;
+	align-content: center;
 }
 
 .worldmap {
@@ -279,7 +282,7 @@ article {
 	left: 650px;
 	}
 
-.icon-blue {color:gray;}
+.icon-blue {color:orangered;}
 .icon-blue span {display: none;}
 .icon-blue:hover span {display: inline;}
 .icon-blue:hover {color:red;}
