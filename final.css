@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: sans Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-family: "Franklin Gothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
   background-color: black;
   color:white;
   line-height: 2;
@@ -21,6 +21,11 @@ h1 {
 
 h2 {
 	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
 }
 
 .wrapper {
@@ -242,50 +247,81 @@ article {
 }
 
 .worldmap {
-	width: 900px;
-	height: 600px;
+	width: 1110px;
+	height: 740px;
 	border: solid #5a5a5a 1px;
-	background: url("finalImgs/worldmap.jpeg") no-repeat;
-	background-size: 900px 600px;
+	background: url("finalImgs/map.jpg") no-repeat;
+	background-size: 1110px 740px;
 	padding: 0;
+	transform: translate(-6%);
 	margin: 0; /* adjust as needed */
 	position: relative; /* needed for positioning the icons */
 }
 
 .worldmap-item {
-			font-size: 24px;  /* controls the size of the icon */
+			font-size: 16px;  /* controls the size of the icon */
 			position: absolute;
 }
 		
 #worldmap-item-longisland {
-	top: 376px;
-	left: 750px;
+	top: 352px;
+	left: 905px;
 	}
 
 #worldmap-item-blairstown {
-	top: 400px;
-	left: 570px;
-	}
-
-#worldmap-item-haddonfield {
-	top: 500px;
-	left: 600px;
+	top: 358px;
+	left: 865px;
 	}
 
 #worldmap-item-manhattan {
-	top: 385px;
-	left: 675px;
+	top: 360px;
+	left: 892px;
 	}
 
 #worldmap-item-hackensack {
-	top: 390px;
-	left: 650px;
+	top: 351px;
+	left: 880px;
 	}
 
-.icon-blue {color:orangered;}
+#worldmap-item-haddonfield {
+	top: 383px;
+	left: 868px;
+	}
+
+#worldmap-item-vancouver {
+	top: 90px;
+	left: 145px;
+	}
+
+#worldmap-item-toronto {
+	top: 300px;
+	left: 780px;
+	}
+
+#worldmap-item-tomsriver {
+	top: 375px;
+	left: 885px;
+	}
+
+#worldmap-item-southpasadena {
+	top: 440px;
+	left: 95px;
+	}
+
+.icon-blue {color:cornflowerblue;}
 .icon-blue span {display: none;}
 .icon-blue:hover span {display: inline;}
-.icon-blue:hover {color:red;}
+.icon-blue:hover {color:#CB393C;}
 
-.worldmap-item span {font-size: 10px; color: #f32196; float: right; background: #efecb4; padding: 3px; margin-left: 3px;}
+.icon-gray {color:lightseagreen;}
+.icon-gray span {display: none;}
+.icon-gray:hover span {display: inline;}
+.icon-gray:hover {color:#CB393C;}
+
+.icon-red {color:firebrick;}
+.icon-red span {display: none;}
+.icon-red:hover span {display: inline;}
+.icon-red:hover {color:#CB393C;}
+
+.worldmap-item span {font-family: "Franklin Gothic", "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; font-size: 16px; color: white; float: right; background: #241714; padding: 8px; margin: 1px; transform: translate(-50%, -120%);}
 		
