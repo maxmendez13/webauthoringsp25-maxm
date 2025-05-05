@@ -97,10 +97,6 @@ header nav img {
   font-style: italic;
 }
 
-img {
-	max-width: 100%;
-  	height: auto;
-}
 
 .intro-text {
   max-width: 800px;
@@ -121,6 +117,25 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
+}
+
+.mapflex {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 50px;
+}
+
+.mapflex-item {
+  background-color: black;
+  border: 3px solid #CB393C;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 30%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(79, 46, 99, 0.548);
+  transition: transform 0.2s ease;
 }
 
 .showcase-item {
